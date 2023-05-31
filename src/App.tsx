@@ -1,11 +1,13 @@
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import { useNavbarContext } from "./contexts/NavbarContext";
+import { PAGES } from "./data/pages";
 
 function App() {
+  const { currentPageIndex } = useNavbarContext();
   return (
     <div>
       <Navbar />
-      <Home />
+      {PAGES[currentPageIndex].component}
     </div>
   );
 }

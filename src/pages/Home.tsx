@@ -20,9 +20,9 @@ function Home() {
             </span>
           </p>
           <div className="flex flex-col gap-1 pl-4">
-            {PERSONAL_INFO.bios.map((bio) => {
+            {PERSONAL_INFO.bios.map((bio, index) => {
               return (
-                <a className="flex gap-2" href={bio.link}>
+                <a className="flex gap-2" href={bio.link} key={index}>
                   <span className="">{bio.icon}</span>
                   {bio.title}
                 </a>
