@@ -1,7 +1,7 @@
 import React from "react";
 
 function Projects() {
-  return <div>Projects</div>;
+  return <div className="animate-page">Projects</div>;
 }
 
 export default Projects;

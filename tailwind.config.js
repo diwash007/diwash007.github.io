@@ -7,6 +7,24 @@ export default {
       colors: {
         primary: "#7e60f0",
       },
+      spacing: {
+        nav: "66px",
+      },
+      animation: {
+        page: "slide .6s ease-in-out forwards",
+      },
+      keyframes: {
+        slide: {
+          "0%": {
+            opacity: 0,
+            transform: "translateX(100px)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translateX(0px)",
+          },
+        },
+      },
     },
   },
   plugins: [],

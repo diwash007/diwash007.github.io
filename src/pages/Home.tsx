@@ -3,7 +3,7 @@ import Socials from "../components/Socials";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-5 justify-center items-center px-4 w-full h-screen sm:flex-row">
+    <div className="flex flex-col gap-5 justify-center items-center px-4 w-full h-screen sm:flex-row animate-page">
       <div>
         <img
           src="/assets/img/profile.jpg"

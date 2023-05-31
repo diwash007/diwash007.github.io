@@ -5,7 +5,7 @@ import { PAGES } from "./data/pages";
 function App() {
   const { currentPageIndex } = useNavbarContext();
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
       {PAGES[currentPageIndex].component}
     </div>
