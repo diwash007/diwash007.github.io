@@ -11,3 +11,13 @@ body {
 *::-webkit-scrollbar {
   display: none;
 }
+
+@layer utilities {
+  .py-nav {
+    @apply py-[calc(theme(spacing.nav)+20px)];
+  }
+
+  .md-py-nav {
+    @apply md:py-[calc(theme(spacing.nav)+40px)];
+  }
+}
