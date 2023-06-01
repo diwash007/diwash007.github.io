@@ -4,11 +4,13 @@ import { FaLink, FaCode } from "react-icons/fa";
 function ProjectCard({ project }: any) {
   return (
     <div className="pb-5 w-[330px] rounded-md shadow-lg">
+      <div className="w-full h-48">
       <img
         src={project.image}
         alt={project.name}
         className="rounded-t-md"
       />
+      </div>
       <div className="px-4 py-4 text-justify">
         <div className="flex justify-between items-center mb-2">
           <div className="inline text-lg font-medium">{project.name}</div>

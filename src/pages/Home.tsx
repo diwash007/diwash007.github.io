@@ -4,10 +4,10 @@ import Socials from "../components/Socials";
 function Home() {
   return (
     <div className="flex flex-col gap-5 justify-center items-center px-4 w-full h-screen sm:flex-row animate-page">
-      <div>
+      <div className="w-52 h-52 sm:w-[270px] sm:h-[270px]">
         <img
           src="/assets/img/profile.jpg"
-          className="w-52 rounded-full border ring-2 ring-offset-2 ring-primary sm:w-64"
+          className="w-full h-full rounded-full border ring-2 ring-offset-2 ring-primary"
           loading="eager"
         />
       </div>
