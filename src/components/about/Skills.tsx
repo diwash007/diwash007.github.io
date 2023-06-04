@@ -12,7 +12,7 @@ const Skills = () => {
         ))}
         <div className="flex flex-wrap gap-2 mt-5">
           {Object.entries(SKILL_ICONS).map(([iconName, iconUrl]) => (
-            <div className="w-12 h-12" key={iconName}>
+            <div className="w-12 h-12" key={iconName} title={iconName}>
               <img src={iconUrl} className="w-full" alt={iconName} />
             </div>
           ))}
