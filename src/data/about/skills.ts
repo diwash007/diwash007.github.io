@@ -12,18 +12,20 @@ export const SKILLS = [
     techs: ["Flutter", "React Native"],
   },
   {
-    name: "Graphic Design with PS, AI",
-    techs: ["Flutter", "React Native"],
+    name: "Graphic Design with PS, AI, Figma",
+    techs: ["Photoshop", "Illustrator", "Figma"],
   },
 ];
 
 export const SKILL_ICONS = {
   html: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg",
   css: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg",
-  javascript: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  javascript:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   tailwind:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-  typescript: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  typescript:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   react:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   python:
@@ -34,5 +36,7 @@ export const SKILL_ICONS = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
   git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   photoshop:
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+    "https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg",
+  figma:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
 };
