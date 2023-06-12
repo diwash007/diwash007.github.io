@@ -1,12 +1,12 @@
 export const PROJECTS = [
   {
-    name: "FlaskOshop",
-    demoLink: "https://flaskoshop.gilobyte.com/",
-    sourceLink: "https://github.com/diwash007/Flask-O-shop",
-    techs: ["Python", "Flask"],
-    image: "/assets/img/project/flaskoshop.png",
+    name: "Kurakani",
+    demoLink: "https://kura-kani.vercel.app/",
+    sourceLink: "https://github.com/diwash007/kurakani",
+    techs: ["Next.js", "React", "Express"],
+    image: "/assets/img/project/kurakani.png",
     description:
-      "An E-Commerce application with Stripe payment integration and a custom admin panel.",
+      "A real-time platform to quickly chat with people all around the globe.",
   },
   {
     name: "29 Points",
@@ -16,6 +16,15 @@ export const PROJECTS = [
     image: "/assets/img/project/29.png",
     description:
       "29 card game is a very famous card game which is played by four players in fixed partnerships.",
+  },
+  {
+    name: "FlaskOshop",
+    demoLink: "https://flaskoshop.gilobyte.com/",
+    sourceLink: "https://github.com/diwash007/Flask-O-shop",
+    techs: ["Python", "Flask"],
+    image: "/assets/img/project/flaskoshop.png",
+    description:
+      "An E-Commerce application with Stripe payment integration and a custom admin panel.",
   },
   {
     name: "Guess the Word",
