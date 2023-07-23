@@ -1,4 +1,4 @@
 export default interface NavbarType {
   currentPageIndex: number;
-  setPageIndex(index: number): void;
+  setCurrentPageIndex: React.Dispatch<React.SetStateAction<number>>;
 }

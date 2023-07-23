@@ -2,7 +2,7 @@ import { useNavbarContext } from "../contexts/NavbarContext";
 import { PAGES } from "../data/pages";
 
 function Navbar() {
-  const { setPageIndex, currentPageIndex } = useNavbarContext();
+  const { setCurrentPageIndex, currentPageIndex } = useNavbarContext();
   return (
     <div className="flex absolute top-0 left-0 z-10 gap-14 justify-center items-center px-4 py-5 w-full">
       {PAGES.map((page, index) => {
@@ -13,7 +13,7 @@ function Navbar() {
               currentPageIndex === index &&
               "border-0 border-b-2 border-b-primary"
             }`}
-            onClick={() => setPageIndex(index)}
+            onClick={() => setCurrentPageIndex(index)}
           >
             <p>{page.title}</p>
           </div>
