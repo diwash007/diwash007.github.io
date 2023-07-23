@@ -1,5 +1,10 @@
 export const EXPERIENCES = [
   {
+    title: "Game Development Intern",
+    company: "Bhoos Entertainment Pvt. Ltd.",
+    time: "June 2023 - Present",
+  },
+  {
     title: "Open Source Developer",
     company: "Python Software Foundation, Google Summer of Code",
     time: "June 2022 - September 2022",
