@@ -2,7 +2,7 @@ export const EDUCATION = [
   {
     degree: "Bachelors",
     institution: "BSc. CSIT, TU",
-    date: "2018 - Present",
+    date: "2018 - 2023",
   },
   {
     degree: "Higher Secondary",
