@@ -1,14 +1,14 @@
 export const SKILLS = [
   {
-    name: "Frontend with JS",
+    name: "Frontend with TypeScript",
     techs: ["React"],
   },
   {
-    name: "Backend with Python",
+    name: "Backend with Python/JS",
     techs: ["Django", "Flask"],
   },
   {
-    name: "Mobile App with RN, Flutter",
+    name: "Mobile App with React Native",
     techs: ["Flutter", "React Native"],
   },
   {
@@ -32,8 +32,6 @@ export const SKILL_ICONS = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   django:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
-  flutter:
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
   git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   photoshop:
     "https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg",

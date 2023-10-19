@@ -1,8 +1,13 @@
 export const EXPERIENCES = [
   {
-    title: "Game Development Intern",
+    title: "Associate Programmer",
     company: "Bhoos Entertainment Pvt. Ltd.",
-    time: "June 2023 - Present",
+    time: "October 2023 - Present",
+  },
+  {
+    title: "Intern",
+    company: "Bhoos Entertainment Pvt. Ltd.",
+    time: "June 2023 - October 2023",
   },
   {
     title: "Open Source Developer",
