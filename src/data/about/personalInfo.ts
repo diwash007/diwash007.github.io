@@ -5,7 +5,7 @@ export const PERSONAL_INFO: PersonalInfoType = {
   role: "Software Developer",
   email: "diwashdahal75@gmail.com",
   about:
-    "I am a highly motivated computer science student with a passion for problem-solving and software development. " +
+    "I am a highly motivated computer science enthusiast with a passion for problem-solving and software development. " +
     "I am a quick learner and open to new challenges and opportunities to expand my skills." +
     "\n" +
     "With my strong analytical skills and attention to detail, I am confident in my ability to contribute to any team and achieve success in my career as a software developer.",
