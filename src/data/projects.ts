@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     name: "Kurakani",
     demoLink: "https://kura-kani.vercel.app/",
-    sourceLink: "https://github.com/diwash007/kurakani",
+    sourceLink: "https://github.com/GiloByte/kurakani",
     techs: ["Next.js", "React", "Express"],
     image: "/assets/img/project/kurakani.png",
     description:
