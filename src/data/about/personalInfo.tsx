@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin, FaMedium, FaYoutube } from "react-icons/fa";
 import { PersonalInfoType } from "../../interfaces/PersonalInfoType";
 
 export const PERSONAL_INFO: PersonalInfoType = {
@@ -10,20 +11,35 @@ export const PERSONAL_INFO: PersonalInfoType = {
     "\n" +
     "With my strong analytical skills and attention to detail, I am confident in my ability to contribute to any team and achieve success in my career as a software developer.",
   socials: [
-    { title: "github", link: "https://github.com/diwash007" },
-    { title: "linkedin", link: "https://linkedin.com/in/diwashdahal" },
-    { title: "twitter", link: "https://twitter.com/dahaldiwash2" },
-    { title: "youtube", link: "https://youtube.com/@dahaldiwash2" },
-    { title: "medium", link: "https://medium.com/@diwashdahal" },
+    {
+      title: "github",
+      link: "https://github.com/diwash007",
+      icon: <FaGithub />,
+    },
+    {
+      title: "linkedin",
+      link: "https://linkedin.com/in/diwashdahal",
+      icon: <FaLinkedin />,
+    },
+    {
+      title: "youtube",
+      link: "https://youtube.com/@dahaldiwash2",
+      icon: <FaYoutube />,
+    },
+    {
+      title: "medium",
+      link: "https://medium.com/@diwashdahal",
+      icon: <FaMedium />,
+    },
   ],
   bios: [
     {
-      icon: "💻",
+      emoji: "💻",
       title: "Aspiring Software Developer",
     },
-    { icon: "📚", title: "A student, eager to learn and grow" },
+    { emoji: "📚", title: "A student, eager to learn and grow" },
     {
-      icon: "📧",
+      emoji: "📧",
       title: "diwashdahal75@gmail.com",
       link: "mailto:diwashdahal@gmail.com",
     },

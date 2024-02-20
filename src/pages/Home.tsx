@@ -23,7 +23,7 @@ function Home() {
             {PERSONAL_INFO.bios.map((bio, index) => {
               return (
                 <a className="flex gap-2" href={bio.link} key={index}>
-                  <span className="">{bio.icon}</span>
+                  <span className="">{bio.emoji}</span>
                   {bio.title}
                 </a>
               );

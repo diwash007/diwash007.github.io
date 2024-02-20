@@ -1,5 +1,5 @@
-import { LinkType } from "./LinkType";
-
-export interface BioType extends LinkType {
-  icon: string;
+export interface BioType {
+  title: string;
+  link?: string;
+  emoji: string;
 }
