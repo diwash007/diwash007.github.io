@@ -23,7 +23,7 @@ export const SKILL_ICONS = {
   javascript:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   tailwind:
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
   typescript:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   react:
