@@ -12,5 +12,8 @@ export const PAGES: PageType[] = [
     title: "About Me",
     component: <About />,
   },
-  { title: "Projects", component: <Projects /> },
+  {
+    title: "Projects",
+    component: <Projects />,
+  },
 ];
