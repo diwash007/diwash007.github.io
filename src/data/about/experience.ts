@@ -1,18 +1,18 @@
 export const EXPERIENCES = [
   {
     title: "Associate Programmer",
-    company: "Bhoos Entertainment Pvt. Ltd.",
-    time: "October 2023 - Present",
+    company: "Bhoos Games",
+    time: "Oct 2023 - Present",
   },
   {
     title: "Intern",
-    company: "Bhoos Entertainment Pvt. Ltd.",
-    time: "June 2023 - October 2023",
+    company: "Bhoos Games",
+    time: "Jun 2023 - Oct 2023",
   },
   {
     title: "Open Source Developer",
-    company: "Python Software Foundation, Google Summer of Code",
-    time: "June 2022 - September 2022",
+    company: "PSF, Google Summer of Code",
+    time: "Jun 2022 - Sept 2022",
     achievements: [
       "Fixed bunch of issues encountered on the python-blogs platform",
       "Revamped whole system to support the new GSoC timelines",
