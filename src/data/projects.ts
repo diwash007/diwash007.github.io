@@ -18,15 +18,6 @@ export const PROJECTS = [
       "29 card game is a very famous card game which is played by four players in fixed partnerships.",
   },
   {
-    name: "FlaskOshop",
-    demoLink: "https://flaskoshop.gilobyte.com/",
-    sourceLink: "https://github.com/diwash007/Flask-O-shop",
-    techs: ["Python", "Flask"],
-    image: "/assets/img/project/flaskoshop.png",
-    description:
-      "An E-Commerce application with Stripe payment integration and a custom admin panel.",
-  },
-  {
     name: "Guess the Word",
     demoLink:
       "https://play.google.com/store/apps/details?id=com.diwashdahal.guesstheword",
@@ -37,14 +28,15 @@ export const PROJECTS = [
       "Guess the Word is a fun game where you have to figure out the right word based on clues.",
   },
   {
-    name: "Subhakaarya.com",
-    demoLink: "https://subhakaarya.com",
-    sourceLink: "",
-    techs: ["React", "Django"],
-    image: "/assets/img/project/subhakaarya.jpg",
+    name: "FlaskOshop",
+    demoLink: "https://flaskoshop.gilobyte.com/",
+    sourceLink: "https://github.com/diwash007/Flask-O-shop",
+    techs: ["Python", "Flask"],
+    image: "/assets/img/project/flaskoshop.png",
     description:
-      "An Event management website that allows users to view and book services for the events.",
+      "An E-Commerce application with Stripe payment integration and a custom admin panel.",
   },
+
   {
     name: "Drag Me Down",
     demoLink:
@@ -64,23 +56,5 @@ export const PROJECTS = [
     image: "/assets/img/project/PDM.png",
     description:
       "Browser Extension for Dark Mode on PDF files to reduce eye strain.",
-  },
-  {
-    name: "Medustore",
-    demoLink: "http://www.youtube.com/watch?v=CyhJCKP0G84",
-    sourceLink: "https://github.com/diwash007/medustore",
-    techs: ["Flutter"],
-    image: "/assets/img/project/medustore.png",
-    description:
-      "An E-Commerce mobile application built using Medusa and Flutter.",
-  },
-  {
-    name: "HCR2 Guide",
-    demoLink: "https://diwashdahal.com.np/HCR2-Guide/",
-    sourceLink: "",
-    techs: ["Flutter"],
-    image: "/assets/img/project/hcr2guide.png",
-    description:
-      "A mobile application that provides various information of the game Hill Climb Racing 2.",
   },
 ];
