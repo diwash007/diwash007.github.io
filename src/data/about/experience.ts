@@ -1,8 +1,13 @@
 export const EXPERIENCES = [
   {
+    title: "Programmer",
+    company: "Bhoos Games",
+    time: "Jul 2024 - Present",
+  },
+  {
     title: "Associate Programmer",
     company: "Bhoos Games",
-    time: "Oct 2023 - Present",
+    time: "Oct 2023 - Jul 2024",
   },
   {
     title: "Intern",
