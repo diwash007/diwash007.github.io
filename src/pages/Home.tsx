@@ -9,6 +9,7 @@ function Home() {
           src="/assets/img/profile.jpg"
           className="w-full h-full rounded-full border ring-2 ring-offset-2 ring-primary"
           loading="eager"
+          alt="Diwash Dahal"
         />
       </div>
       <div className="flex flex-col gap-7">
@@ -21,11 +22,12 @@ function Home() {
           </p>
           <div className="flex flex-col gap-1 pl-4">
             {PERSONAL_INFO.bios.map((bio, index) => {
+              const Wrapper = bio.link ? "a" : "div";
               return (
-                <a className="flex gap-2" href={bio.link} key={index}>
-                  <span className="">{bio.emoji}</span>
+                <Wrapper className="flex gap-2" href={bio.link} key={index}>
+                  <span>{bio.emoji}</span>
                   {bio.title}
-                </a>
+                </Wrapper>
               );
             })}
           </div>

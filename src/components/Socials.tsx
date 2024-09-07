@@ -9,7 +9,13 @@ const Socials = () => {
           key={index}
           value={{ size: "30", className: "hover:text-primary" }}
         >
-          <a href={social.link} target="_blank" key={index}>
+          <a
+            href={social.link}
+            target="_blank"
+            key={index}
+            aria-label={social.title}
+            title={social.title}
+          >
             {social.icon}
           </a>
         </IconContext.Provider>
