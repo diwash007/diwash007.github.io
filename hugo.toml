@@ -1,0 +1,87 @@
+baseURL = 'https://diwashdahal.com.np/'
+languageCode = 'en-us'
+title = 'Diwash Dahal'
+enableRobotsTXT = true
+enableEmoji = true
+pygmentsUseClasses = true
+theme = 'PaperMod'
+
+[author]
+  name = 'Diwash Dahal'
+  email = 'diwashdahal75@gmail.com'
+
+[params]
+  env = 'production'
+  title = 'Diwash Dahal'
+  description = "Software Engineer at Bhoos Games. Building cross-platform mobile apps and games with React Native, TypeScript, and Node.js."
+  keywords = ['Diwash Dahal', 'Software Engineer', 'React Native', 'TypeScript', 'Game Development', 'Full-Stack', 'JavaScript', 'Node.js', 'Blog']
+  author = 'Diwash Dahal'
+  DateFormat = 'January 2, 2006'
+  defaultTheme = 'auto'
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  homeInfoParams = false
+  searchHidden = true
+  schemaType = "Person"
+  images = ["profile.png"]
+
+  [params.schema]
+    publisherType = "Person"
+    sameAs = [
+      "https://github.com/diwash007",
+      "https://www.linkedin.com/in/diwashdahal/",
+      "https://x.com/dahaldiwash2",
+    ]
+
+  [params.assets]
+    favicon = "favicon.png"
+    appleFavicon = "apple-touch-icon.png"
+
+  # Home / Profile mode (minimal, like the inspiration site)
+  [params.profileMode]
+    enabled = true
+    title = "Hi, I'm Diwash 👋"
+    subtitle = "Software Engineer at Bhoos Games. I build cross-platform mobile apps and games with React Native, TypeScript, and Node.js — for products serving over a million users."
+    imageUrl = "profile.png"
+    imageTitle = "Diwash Dahal"
+    imageWidth = 180
+    imageHeight = 180
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/diwash007"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/diwashdahal/"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://x.com/dahaldiwash2"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menus.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/about/'
+  weight = 1
+[[menus.main]]
+  identifier = 'projects'
+  name = 'Projects'
+  url = '/projects/'
+  weight = 2
+[[menus.main]]
+  identifier = 'posts'
+  name = 'Blog'
+  url = '/posts/'
+  weight = 3

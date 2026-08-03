@@ -1,4 +1,18 @@
-# Hi, I'm Diwash Dahal 👋
+---
+title: "About"
+url: "/about/"
+draft: false
+ShowToc: false
+ShowShareButtons: false
+ShowReadingTime: false
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+ShowCodeCopyButtons: false
+ShowWordCount: false
+hideAuthor: true
+---
+
+# Hi, I'm Diwash 👋
 
 I'm a Software Engineer at **Bhoos Games** (3 years), building cross-platform mobile apps and card games with React Native, TypeScript, and Node.js.
 
