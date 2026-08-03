@@ -32,7 +32,7 @@ theme = 'PaperMod'
   homeInfoParams = false
   searchHidden = true
   schemaType = "Person"
-  images = ["profile.png"]
+  images = ["profile.webp"]
 
   [params.schema]
     publisherType = "Person"
@@ -51,7 +51,7 @@ theme = 'PaperMod'
     enabled = true
     title = "Hi, I'm Diwash 👋"
     subtitle = "Software Engineer at Bhoos Games. I build cross-platform mobile apps and games with React Native, TypeScript, and Node.js — for products serving over a million users."
-    imageUrl = "profile.png"
+    imageUrl = "profile.webp"
     imageTitle = "Diwash Dahal"
     imageWidth = 180
     imageHeight = 180
