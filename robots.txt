@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://diwashdahal.com.np/sitemap.xml
