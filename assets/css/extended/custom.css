@@ -10,6 +10,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* MY */
+.center-figure {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.center-figure>img {
+  display: inline-block;
+  margin: 0!important;
+}
+
+.center-figure>figcaption {
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  font-weight: 100;
+  font-style: italic;
+  color: #555555;
+  text-align: center;
+  margin: 0!important;
+  padding: 0
+}
+
 /* — Nav — */
 .nav {
   flex-wrap: wrap;
@@ -115,6 +137,11 @@ body {
   font-size: 13px;
   color: var(--secondary);
   padding: 32px 0;
+}
+
+/* — JSON code blocks: wrap long lines instead of scrolling — */
+.post-content .highlight code.language-json {
+  white-space: pre-wrap;
 }
 
 /* — Theme toggle — */

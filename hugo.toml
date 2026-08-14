@@ -6,6 +6,9 @@ enableEmoji = true
 pygmentsUseClasses = true
 theme = 'PaperMod'
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [author]
   name = 'Diwash Dahal'
   email = 'diwashdahal75@gmail.com'
