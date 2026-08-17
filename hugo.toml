@@ -13,6 +13,9 @@ unsafe = true
   name = 'Diwash Dahal'
   email = 'diwashdahal75@gmail.com'
 
+[services.googleAnalytics]
+  ID = 'G-FBCNCKSB34'
+
 [params]
   env = 'production'
   title = 'Diwash Dahal'
