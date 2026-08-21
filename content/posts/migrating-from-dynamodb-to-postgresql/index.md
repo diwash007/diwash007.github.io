@@ -73,7 +73,8 @@ Now there was nothing left for us to do except track the row counts to monitor p
 
 ## Results
 Queries that weren't possible previously, we could run freely afterwards. We unlocked the ultimate weapon to gather the insights we required from the user data that we possessed.
-For example, the following query helped us figure out that most of our users lay in the lower diamond bucket range enabling us to make decisions to update our economy system to improve revenue growth, which I will cover in my upcoming blogs.
+For example, we figured out that most of our users lay in the lower diamond bucket range with a simple query as similar to given below.
+Such insights enabled us to make decisions to update our economy system to improve revenue growth, which I will cover in my upcoming blogs.
 ```sql
 with diamonds as (
     select diamond
@@ -123,6 +124,3 @@ We missed several things on this migration process which made us suffer later.
 </figure>
 
 2. We had reviewed the code written by Claude properly for the most part. Because the shim layer had the same pattern for every endpoint, we reviewed that everything should work correctly. But. But. But. A simple logical flaw in a shim layer for Account Deletion endpoint gave a way for any player to have unlimited resources. On my next article, I will write about how I cut debugging time by implementing structured logging which led to the detection of that anomaly.
-
-## Conclusion
-It was a great rollercoaster ride, and my first time leading a proper production database migration. But the real takeaway isn't the database - it's that an "impossible" migration is just a series of small decisions: keep the old system alive, migrate lazily, and never remove the fallback until you're sure. Today, the queries that used to cost us money and minutes run in milliseconds, and for the first time we could actually see how our players played.
