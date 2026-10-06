@@ -14,7 +14,7 @@ hideAuthor: true
 
 **[Card Crush](https://play.google.com/store/apps/details?id=com.gilobyte.cardcrush)** — Match-3 puzzle, 1,024 levels, 660+ downloads, 5.0★ · _PixiJS, Node.js, Android_
 
-**[PDF Dark Mode](https://diwashdahal.com.np/PDF-Dark-Mode)** — Browser extension for dark mode on PDF files, 30K+ weekly users · _JavaScript_
+**[PDF Dark Mode](https://pdf-dark.com)** — Browser extension for dark mode on PDF files, 30K+ weekly users · _JavaScript_
 
 **[Guess The Word](https://play.google.com/store/apps/details?id=com.diwashdahal.guesstheword)** — Word puzzle with remote level delivery, 300+ downloads · _React Native_
 
